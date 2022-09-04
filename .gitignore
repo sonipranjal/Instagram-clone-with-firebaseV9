@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+lib/firebase.js
+
 # testing
 /coverage
 
@@ -34,3 +36,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+src/lib/firebase.js
