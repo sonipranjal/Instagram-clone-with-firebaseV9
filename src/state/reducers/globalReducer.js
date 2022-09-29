@@ -24,6 +24,12 @@ export const globalReducer = (state, action) => {
         isOnboarded: action.payload.isOnboarded,
       };
     }
+    case 'SET_IS_UPLOAD_POST_MODAL_OPEN': {
+      return {
+        ...state,
+        isUploadPostModalOpen: action.payload.isUploadPostModalOpen,
+      };
+    }
     default: {
       throw Error('unknown action: ' + action.type);
     }

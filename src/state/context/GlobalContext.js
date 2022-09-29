@@ -9,6 +9,7 @@ const intialState = {
   isAuthenticated: false,
   isOnboarded: false,
   isLoading: true,
+  isUploadPostModalOpen: false,
 };
 
 export const GlobalContext = createContext(intialState);
